@@ -3,13 +3,13 @@
 echo "Clean out old db"
 echo
 
-rm hefftor-repo*
+rm hefftor-test-repo*
 
 echo
 echo "Run repo-add"
 echo 
 
-repo-add hefftor-repo.db.tar.gz *.pkg.tar.zst
+repo-add hefftor-test-repo.db.tar.gz *.pkg.tar.zst
 
 echo "####################################"
 echo "Repo Updated!!"
